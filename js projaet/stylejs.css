@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('giphy.gif'); 
+    background-position: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height : 400px;
+    width: 300px;
+    padding-top:10px ;
+    backdrop-filter: blur(30px);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    flex-direction: column;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(125deg,#be0085,#020092);
+}
+.container label {
+    padding-bottom:5px ;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+.container input {
+    width: 200px;
+    height: 30px;
+    justify-items: center;
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom:2px solid #fff ;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.container .buttonm {
+    justify-content: space-between;
+    padding-top:50px ;
+    
+    
+}
+.container .buttonm button{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 55px;
+    height: 25px;
+    border: 2px solid #2521ff;
+    border-radius: 5px;
+    font-weight:600 ;
+    color: #ffffff;
+    background: #2521ff;
+    transition: 0.5s;
+}
+.container .buttonm button:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: #000000;
+}
+.container .answer {
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #949494;
+}
+.container .answer p {
+    color:#000000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
